@@ -1,0 +1,10 @@
+{
+  "simulation": "GatlingDatabase",
+  "simulationId": "gatlingdatabase",
+  "start": 1642475101138,
+  "description": "",
+  "scenarios": ["GatlingDatabase"],
+  "assertions": [
+
+  ]
+}

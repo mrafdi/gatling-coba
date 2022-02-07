@@ -1,0 +1,7 @@
+RUN	GatlingDatabase	gatlingdatabase	1642475101138	 	3.7.3
+USER	GatlingDatabase	START	1642475103371
+REQUEST		LOAD_HOMEPAGE	1642475103389	1642475103418	KO	j.l.IllegalArgumentException: Protocol TLSv1.3 is not supported.
+REQUEST		LOAD_NEW_COMPUTER_PAGE	1642475104431	1642475104461	KO	j.l.IllegalArgumentException: Protocol TLSv1.3 is not supported.
+REQUEST		CREATE_NEW_COMPUTER	1642475105466	1642475105484	KO	j.l.IllegalArgumentException: Protocol TLSv1.3 is not supported.
+REQUEST		SEARCH_COMPUTER	1642475106494	1642475106513	KO	j.l.IllegalArgumentException: Protocol TLSv1.3 is not supported.
+USER	GatlingDatabase	END	1642475106515
